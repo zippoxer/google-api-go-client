@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/manager/v1beta2"
+//   import "github.com/zippoxer/google-api-go-client/manager/v1beta2"
 //   ...
 //   managerService, err := manager.New(oauthHttpClient)
-package manager // import "google.golang.org/api/manager/v1beta2"
+package manager // import "github.com/zippoxer/google-api-go-client/manager/v1beta2"
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/zippoxer/google-api-go-client/gensupport"
+	googleapi "github.com/zippoxer/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

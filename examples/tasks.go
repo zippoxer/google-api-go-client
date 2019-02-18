@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	tasks "google.golang.org/api/tasks/v1"
+	tasks "github.com/zippoxer/google-api-go-client/tasks/v1"
 )
 
 func init() {

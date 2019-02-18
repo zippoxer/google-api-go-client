@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/reseller/v1sandbox"
+//   import "github.com/zippoxer/google-api-go-client/reseller/v1sandbox"
 //   ...
 //   resellerService, err := reseller.New(oauthHttpClient)
-package reseller // import "google.golang.org/api/reseller/v1sandbox"
+package reseller // import "github.com/zippoxer/google-api-go-client/reseller/v1sandbox"
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/zippoxer/google-api-go-client/gensupport"
+	googleapi "github.com/zippoxer/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/pubsub/v1"
+//   import "github.com/zippoxer/google-api-go-client/pubsub/v1"
 //   ...
 //   pubsubService, err := pubsub.New(oauthHttpClient)
-package pubsub // import "google.golang.org/api/pubsub/v1"
+package pubsub // import "github.com/zippoxer/google-api-go-client/pubsub/v1"
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/zippoxer/google-api-go-client/gensupport"
+	googleapi "github.com/zippoxer/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

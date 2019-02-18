@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	pubsub "google.golang.org/api/pubsub/v1beta2"
+	pubsub "github.com/zippoxer/google-api-go-client/pubsub/v1beta2"
 )
 
 const USAGE = `Available arguments are:

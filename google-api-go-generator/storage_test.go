@@ -12,8 +12,8 @@ import (
 	"testing/iotest"
 
 	"golang.org/x/net/context"
-	dfa "google.golang.org/api/dfareporting/v2.2"
-	storage "google.golang.org/api/storage/v1"
+	dfa "github.com/zippoxer/google-api-go-client/dfareporting/v2.2"
+	storage "github.com/zippoxer/google-api-go-client/storage/v1"
 )
 
 type myHandler struct {

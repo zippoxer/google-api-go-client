@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"google.golang.org/api/googleapi"
-	storage "google.golang.org/api/storage/v1"
+	"github.com/zippoxer/google-api-go-client/googleapi"
+	storage "github.com/zippoxer/google-api-go-client/storage/v1"
 )
 
 func init() {

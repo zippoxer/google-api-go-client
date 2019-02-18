@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/logging/v2beta1"
+//   import "github.com/zippoxer/google-api-go-client/logging/v2beta1"
 //   ...
 //   loggingService, err := logging.New(oauthHttpClient)
-package logging // import "google.golang.org/api/logging/v2beta1"
+package logging // import "github.com/zippoxer/google-api-go-client/logging/v2beta1"
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/zippoxer/google-api-go-client/gensupport"
+	googleapi "github.com/zippoxer/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

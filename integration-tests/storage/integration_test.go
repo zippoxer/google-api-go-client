@@ -15,8 +15,8 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/googleapi"
-	storage "google.golang.org/api/storage/v1"
+	"github.com/zippoxer/google-api-go-client/googleapi"
+	storage "github.com/zippoxer/google-api-go-client/storage/v1"
 )
 
 type object struct {

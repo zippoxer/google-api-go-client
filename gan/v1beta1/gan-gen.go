@@ -4,10 +4,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/gan/v1beta1"
+//   import "github.com/zippoxer/google-api-go-client/gan/v1beta1"
 //   ...
 //   ganService, err := gan.New(oauthHttpClient)
-package gan // import "google.golang.org/api/gan/v1beta1"
+package gan // import "github.com/zippoxer/google-api-go-client/gan/v1beta1"
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	context "golang.org/x/net/context"
 	ctxhttp "golang.org/x/net/context/ctxhttp"
-	gensupport "google.golang.org/api/gensupport"
-	googleapi "google.golang.org/api/googleapi"
+	gensupport "github.com/zippoxer/google-api-go-client/gensupport"
+	googleapi "github.com/zippoxer/google-api-go-client/googleapi"
 	"io"
 	"net/http"
 	"net/url"

@@ -37,12 +37,12 @@ import (
     "golang.org/x/net/context"
     "golang.org/x/oauth2"
     "golang.org/x/oauth2/google"
-    "google.golang.org/api/urlshortener/v1"
+    "github.com/zippoxer/google-api-go-client/urlshortener/v1"
 )
 ```
 
 The package name, if you don't override it on your import line, is the name of the
-API without the version number.  In the case above, just `urlshortener`.
+API without the version number. In the case above, just `urlshortener`.
 
 ## Instantiating
 
@@ -74,7 +74,7 @@ In summary, you need to create an OAuth config:
     }
 ```
 
-Then you need to get an OAuth Token from the user.  This involves sending the user
+Then you need to get an OAuth Token from the user. This involves sending the user
 to a URL (at Google) to grant access to your application (either a web application
 or a desktop application), and then the browser redirects to the website or local
 application's webserver with the per-user token in the URL.

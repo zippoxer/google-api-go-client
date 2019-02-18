@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"net/textproto"
 
-	"google.golang.org/api/googleapi"
+	"github.com/zippoxer/google-api-go-client/googleapi"
 )
 
 const sniffBuffSize = 512

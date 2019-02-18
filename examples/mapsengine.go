@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	mapsengine "google.golang.org/api/mapsengine/v1"
+	mapsengine "github.com/zippoxer/google-api-go-client/mapsengine/v1"
 )
 
 func init() {
